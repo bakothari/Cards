@@ -6,22 +6,31 @@
 }
 
 body{
-  background:#1e1e2f;
+  background:#323234;
 }
 
-
+.container{
+ display: flex;
+  min-height: 100vh;
+}
 .cards{
+
   display:flex;
   flex-wrap:wrap;
+  
   justify-content:center;
   gap:30px;
   padding:50px;
 }
 
-
+.sidebar{
+  width: 240px;
+  background-color: #28282a;
+ 
+}
 .card{
-  width:260px;
-  background:#27293d;
+ width: 250px;
+  background:#28282a;
   border-radius:5px;
   text-align:center;
   padding-bottom:20px;

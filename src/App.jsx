@@ -4,8 +4,10 @@ function App() {
 
   return (
     <>
-      <div className="cards">
+    <div className='container'>
       <div className='sidebar'></div>
+      <div className="cards">
+      
         <div className="card">
           <div 
             className="bg" 
@@ -81,6 +83,7 @@ function App() {
         </div>
 
       </div>
+    </div >
     </>
   )
 }
